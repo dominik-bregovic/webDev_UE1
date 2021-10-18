@@ -1,0 +1,219 @@
+
+      body {
+        background-image: url('images/back.jfif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+	
+      }
+
+	  .welcome{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		font-family: "Verdana", 'Times New Roman', Times, serif;
+		font-weight: bolder;
+		font-size: 20px;
+	
+	  }
+
+	  .Intro-Container{
+		  display: flex;
+		  flex-direction: column;
+		  flex-wrap: nowrap;
+		  font-family: "Verdana", Sansserif;
+		  font-weight: bold;
+		  align-items: flex-end;
+	  }
+
+	  
+	  .Intro_1{
+		flex: 1;
+		order: 1;
+	 }
+	  .Intro_2{
+		 flex: 1;
+		 order: 3;
+	  }
+	  .Intro_3{
+		flex: 1;
+		order: 2;
+	 }
+
+	 .blockchain{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: center;		
+	 }
+
+	 .blockchainText{
+		font-family: "Verdana", Sansserif;
+		font-weight: bold;
+	
+	 }
+
+	 .blockchainIFrame{
+		flex-wrap: nowrap;
+		 opacity: 0.6; /*makes the image transparent*/
+	 }
+
+	 .blockchainImage{
+		flex-wrap: nowrap;
+		opacity: 0.8; /*makes the image transparent*/
+	 }
+
+	
+	 div > p{
+		 color: black;
+		 font-weight: normal;
+	 }
+
+	
+	 table > tr{
+	
+		font-weight: bold;
+	 }
+
+	
+	  .videos{
+		position: relative;
+		overflow: hidden;
+		padding-top: 56.25%;
+	}
+
+	.iframeVid1{
+		position: absolute;
+		left: 70%;
+		top: 75%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+	.frame1Text{
+		position: absolute;
+		left: 10%;
+		top: 75%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.iframeVid2{
+		position: absolute;
+		left: 70%;
+		top: 110%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+	.frame2Text{
+		position: absolute;
+		left: 10%;
+		top: 110%;
+		width: 33%;
+		height: 30%;	
+	}
+
+
+	.iframeVid3{
+		position: absolute;
+		left: 70%;
+		top: 145%;
+		width: 33%;
+		height: 30%;
+		border: 0;			/*to let border (frame) disapear*/
+	}
+	.frame3Text{
+		position: absolute;
+		left: 10%;
+		top: 145%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.searchEngine{
+		position: relative;
+		overflow: hidden;
+		padding-top: 56.25%;
+	}
+
+	.searchEngineText{
+		position: absolute;
+		left: 20%;
+		top: 195%;
+		width: 35%;
+		height: 10%;	
+	
+	}
+
+	.yahooEngine{
+		position: absolute;
+		left: 80%;
+		top: 190%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.googleEngine1{
+		position: absolute;
+		left: 80%;
+		top: 200%;
+		width: 33%;
+		height: 30%;	
+	}
+
+	.blockchainWelcome{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		font-family: "Times New Roman", 'Times New Roman', Times, serif;
+		font-weight: bolder;
+		font-size: 20px;
+	
+	}
+
+	.blockchainIntro{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		font-family: "Verdana", 'Times New Roman', Times, serif;
+		font-weight: bolder;
+		font-size: 20px;
+		/*background-image: url('images/background.jpg');
+		opacity: 0.5;*/
+
+	}
+
+	.blockchainIntroText{
+	
+	}
+	
+	.blockchainVideo1{
+	
+	}	
+	
+
+
+	  ul {
+		  
+		  margin: 0;
+		  padding: 0;
+		  list-style-type: georgian;
+	  }
+
+	  li {
+		  
+		  display: inline-block;
+		  margin: 20px;
+	  }
+	  
+
+
+	  
+	
+	  
+     
