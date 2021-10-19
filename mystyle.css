@@ -7,7 +7,7 @@
 	
       }
 
-	  .welcome{
+	  /*.welcome{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -16,31 +16,51 @@
 		font-weight: bolder;
 		font-size: 20px;
 	
+	  }*/
+
+	  .HeaderStyle{
+		  background:cornflowerblue;
 	  }
 
-	  .Intro-Container{
+	  .HeaderStyle::after{
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	  .Navigationbar{
+		  width: 80%;
+		  margin: auto;
 		  display: flex;
-		  flex-direction: column;
+		  flex-direction: row;
 		  flex-wrap: nowrap;
 		  font-family: "Verdana", Sansserif;
 		  font-weight: bold;
-		  align-items: flex-end;
+		  align-items: center;
+	  }
+
+	  .nav-logo{
+		  float: left;
+	  }
+	  
+	  .nav{
+		  float: right;
 	  }
 
 	  
-	  .Intro_1{
+	/*  .Intro_1{
 		flex: 1;
 		order: 1;
 	 }
 	  .Intro_2{
 		 flex: 1;
-		 order: 3;
+		 order: 2;
 	  }
 	  .Intro_3{
 		flex: 1;
-		order: 2;
+		order: 3;
 	 }
-
+*/
 	 .blockchain{
 		display: flex;
 		flex-direction: row;
