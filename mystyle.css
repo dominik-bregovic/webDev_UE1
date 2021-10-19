@@ -29,7 +29,7 @@
 	}
 
 	  .Navigationbar{
-		  width: 80%;
+		  width: 90%;
 		  margin: auto;
 		  display: flex;
 		  flex-direction: row;
@@ -39,15 +39,6 @@
 		  align-items: center;
 	  }
 
-	  .nav-logo{
-		  float: left;
-	  }
-	  
-	  .nav{
-		  float: right;
-	  }
-
-	  
 	/*  .Intro_1{
 		flex: 1;
 		order: 1;
@@ -62,11 +53,11 @@
 	 }
 */
 	 .blockchain{
-		display: flex;
+		display:flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		align-items: center;
-		justify-content: center;		
+		justify-content:space-around;		
 	 }
 
 	 .blockchainText{
@@ -98,15 +89,15 @@
 	 }
 
 	
-	  .videos{
+	/*  .videos{
 		position: relative;
 		overflow: hidden;
-		padding-top: 56.25%;
-	}
+		padding-top: 40.25%;
+	}*/
 
 	.iframeVid1{
 		position: absolute;
-		left: 70%;
+		left: 60%;
 		top: 75%;
 		width: 33%;
 		height: 30%;
@@ -122,7 +113,7 @@
 
 	.iframeVid2{
 		position: absolute;
-		left: 70%;
+		left: 60%;
 		top: 110%;
 		width: 33%;
 		height: 30%;
@@ -139,7 +130,7 @@
 
 	.iframeVid3{
 		position: absolute;
-		left: 70%;
+		left: 60%;
 		top: 145%;
 		width: 33%;
 		height: 30%;
